@@ -10,7 +10,8 @@
     "lint:fix": "next lint --fix",
     "prettier": "prettier --write .",
     "format": "eslint . --ext ts --ext tsx --ext js",
-    "test": "npm run lint && npm run format && npm run build"
+    "test": "npm run lint && npm run format && npm run build",
+    "prepare": "husky"
   },
   "dependencies": {
     "eslint-config-prettier": "^9.1.0",
