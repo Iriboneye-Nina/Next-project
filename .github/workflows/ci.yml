@@ -1,4 +1,4 @@
-name: First-App 
+name: First-App
 
 on:
   push:
@@ -24,6 +24,6 @@ jobs:
 
       - name: Install dependencies
         run: npm install
-      
-      - name: Test 
+
+      - name: Test
         run: npm run test
