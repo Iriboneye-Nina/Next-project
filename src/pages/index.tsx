@@ -1,11 +1,8 @@
-import React from 'react'
-import Blog from '@/components/shared/BlogContent'
-
+import React from "react";
+import Blog from "@/components/shared/BlogContent";
 
 const index = () => {
-  return (
-    <Blog/>
-  )
-}
+  return <Blog />;
+};
 
-export default index
+export default index;

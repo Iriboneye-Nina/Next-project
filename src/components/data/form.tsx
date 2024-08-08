@@ -3,7 +3,7 @@
 // const LoginForm = () => {
 //   return (
 //     <div className="flex justify-center items-center min-h-screen bg-gray-100">
-      
+
 //       <form className="bg-white p-5 rounded-lg shadow-lg max-w-sm w-full">
 //         <h2 className="text-2xl font-bold mb-6 text-center">Login</h2>
 //         <div className="mb-4">
