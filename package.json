@@ -10,10 +10,12 @@
     "lint:fix": "next lint --fix",
     "prettier": "prettier --write .",
     "format": "eslint . --ext ts --ext tsx --ext js",
+    "build-project": "npm run lint && npm run format && npm run build",
     "test": "jest",
     "prepare": "husky"
   },
   "dependencies": {
+    "@babel/preset-env": "^7.25.3",
     "@reduxjs/toolkit": "^2.2.7",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-prettier": "^5.2.1",
@@ -25,8 +27,6 @@
     "react-dom": "^18"
   },
   "devDependencies": {
-    "@babel/preset-env": "^7.25.3",
-    "@babel/preset-react": "^7.24.7",
     "@babel/preset-typescript": "^7.24.7",
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.4.8",
@@ -37,7 +37,6 @@
     "@types/react-dom": "^18.3.0",
     "@typescript-eslint/eslint-plugin": "^8.0.1",
     "@typescript-eslint/parser": "^8.0.1",
-    "babel-jest": "^29.7.0",
     "eslint": "^8.57.0",
     "eslint-config-next": "^14.2.5",
     "husky": "^9.1.4",
