@@ -1,4 +1,4 @@
-name: First-App
+name: CI
 
 on:
   push:
@@ -25,5 +25,17 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Test
+      - name: Run format check
+        run: npm run check-format
+
+      - name: Run lint check
+        run: npm run check-lint
+
+      - name: Run type check
+        run: npm run check-types
+
+      - name: Run tests
         run: npm run test
+
+      - name: Build project
+        run: npm run build
